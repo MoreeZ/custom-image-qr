@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Receipt</title>
+</head>
+<body>
+    <h1>Receipt</h1>
+    <!-- Display the value of imgURL somewhere in the HTML -->
+    <p>Value of imgURL: <span id="imgURLValue"></span></p>
+    <div id="qrCodeContainer"></div>
+    <script src="scripts/getUrlParameter.js"></script>
+    <script>
+        // Set the value of imgURL in the HTML
+        document.getElementById('imgURLValue').textContent = imgURLValue;
+    </script>
+</body>
+</html>

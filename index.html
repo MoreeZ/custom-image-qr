@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oskar Mroz</title>
+</head>
+
+<body>
+    <section>
+        <div class="pre-box">
+            <label for="file" class="choose-photo-label">Choose a Photo</label>
+            <input type="file" name="file" id="file">
+            <div class="pre-img-box">
+                <img class="pre-img" src="" data-type="preview" alt="image preview">
+                <span>image preview</span>
+            </div>
+            <button for="upload" onclick="makePostRequest()" class="upload-button">Upload</button>
+        </div>
+    </section>
+    <script src="./scripts/preview.js"></script>
+    <script src="./scripts/upload.js"></script>
+</body>
+
+</html>
