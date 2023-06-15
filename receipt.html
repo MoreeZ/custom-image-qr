@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image Receipt</title>
-</head>
-<body>
-    <h1>Receipt</h1>
-    <!-- Display the value of imgURL somewhere in the HTML -->
-    <p>Value of imgURL: <span id="imgURLValue"></span></p>
+    <link rel="stylesheet" href="receipt.css" />
+  </head>
+  <body>
+    <h1>📷Your Photograph📷</h1>
+    <p>
+      I hope you don't mind but I took a picture of you and I thought you might
+      like it 😊
+    </p>
+    <p>
+      <i><b> Scan the QR Code to see your photograph </b></i>
+    </p>
     <div id="qrCodeContainer"></div>
     <script src="scripts/getUrlParameter.js"></script>
-    <script>
-        // Set the value of imgURL in the HTML
-        document.getElementById('imgURLValue').textContent = imgURLValue;
-    </script>
-</body>
+    <h2>My name is Oskar</h2>
+    <div class="footer">
+      <div class="left">
+        <p>I'm an amateur photographer. Feel free to check out my Instagram.</p>
+      </div>
+      <div class="right">
+        <img src="instagram_qr.jpg" alt="@oskar_mroz_photography" />
+      </div>
+    </div>
+  </body>
 </html>
